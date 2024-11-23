@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { PORT, IP } from './utils/constants';
-import { newGame, playerList, currentGame, currentToExecuteValidator, avalibleActions, playerAction, winnerSelect } from './controllers/gameController';
+import { PORT, IP } from './src/utils/constants';
+import { newGame, playerList, currentGame, currentToExecuteValidator, avalibleActions, playerAction, winnerSelect } from './src/controllers/gameController';
 
 const app = express();
 
